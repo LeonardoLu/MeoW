@@ -1,0 +1,58 @@
+{
+  "images" : [
+    {
+      "filename" : "shield.png",
+      "idiom" : "iphone",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "shield-1.png",
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "shield-2.png",
+      "idiom" : "iphone",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "shield-3.png",
+      "idiom" : "ipad",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "shield-4.png",
+      "idiom" : "ipad",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "shield-8.png",
+      "idiom" : "mac",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "shield-9.png",
+      "idiom" : "mac",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "shield-5.png",
+      "idiom" : "watch",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "shield-6.png",
+      "idiom" : "tv",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "shield-7.png",
+      "idiom" : "tv",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

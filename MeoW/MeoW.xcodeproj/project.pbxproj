@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B66FDCC28E5644E00C9F09C /* MeoW Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2B66FDCB28E5644E00C9F09C /* MeoW Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2B66FDD128E5644E00C9F09C /* MeoWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66FDD028E5644E00C9F09C /* MeoWApp.swift */; };
+		2B66FDD328E5644E00C9F09C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66FDD228E5644E00C9F09C /* ContentView.swift */; };
+		2B66FDD528E5645000C9F09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B66FDD428E5645000C9F09C /* Assets.xcassets */; };
+		2B66FDD828E5645000C9F09C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B66FDD728E5645000C9F09C /* Preview Assets.xcassets */; };
+		2B66FDE228E5645000C9F09C /* MeoW_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66FDE128E5645000C9F09C /* MeoW_Watch_AppTests.swift */; };
+		2B66FDEC28E5645000C9F09C /* MeoW_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66FDEB28E5645000C9F09C /* MeoW_Watch_AppUITests.swift */; };
+		2B66FDEE28E5645000C9F09C /* MeoW_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66FDED28E5645000C9F09C /* MeoW_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B66FDCD28E5644E00C9F09C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B66FDBF28E5644E00C9F09C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B66FDCA28E5644E00C9F09C;
+			remoteInfo = "MeoW Watch App";
+		};
+		2B66FDDE28E5645000C9F09C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B66FDBF28E5644E00C9F09C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B66FDCA28E5644E00C9F09C;
+			remoteInfo = "MeoW Watch App";
+		};
+		2B66FDE828E5645000C9F09C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B66FDBF28E5644E00C9F09C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B66FDCA28E5644E00C9F09C;
+			remoteInfo = "MeoW Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B66FDF428E5645000C9F09C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2B66FDCC28E5644E00C9F09C /* MeoW Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B66FDC528E5644E00C9F09C /* MeoW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeoW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B66FDCB28E5644E00C9F09C /* MeoW Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MeoW Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B66FDD028E5644E00C9F09C /* MeoWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeoWApp.swift; sourceTree = "<group>"; };
+		2B66FDD228E5644E00C9F09C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B66FDD428E5645000C9F09C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B66FDD728E5645000C9F09C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B66FDDD28E5645000C9F09C /* MeoW Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MeoW Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B66FDE128E5645000C9F09C /* MeoW_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeoW_Watch_AppTests.swift; sourceTree = "<group>"; };
+		2B66FDE728E5645000C9F09C /* MeoW Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MeoW Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B66FDEB28E5645000C9F09C /* MeoW_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeoW_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		2B66FDED28E5645000C9F09C /* MeoW_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeoW_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B66FDC828E5644E00C9F09C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B66FDDA28E5645000C9F09C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B66FDE428E5645000C9F09C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B66FDBE28E5644E00C9F09C = {
+			isa = PBXGroup;
+			children = (
+				2B66FDCF28E5644E00C9F09C /* MeoW Watch App */,
+				2B66FDE028E5645000C9F09C /* MeoW Watch AppTests */,
+				2B66FDEA28E5645000C9F09C /* MeoW Watch AppUITests */,
+				2B66FDC628E5644E00C9F09C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B66FDC628E5644E00C9F09C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B66FDC528E5644E00C9F09C /* MeoW.app */,
+				2B66FDCB28E5644E00C9F09C /* MeoW Watch App.app */,
+				2B66FDDD28E5645000C9F09C /* MeoW Watch AppTests.xctest */,
+				2B66FDE728E5645000C9F09C /* MeoW Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B66FDCF28E5644E00C9F09C /* MeoW Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				2B66FDD028E5644E00C9F09C /* MeoWApp.swift */,
+				2B66FDD228E5644E00C9F09C /* ContentView.swift */,
+				2B66FDD428E5645000C9F09C /* Assets.xcassets */,
+				2B66FDD628E5645000C9F09C /* Preview Content */,
+			);
+			path = "MeoW Watch App";
+			sourceTree = "<group>";
+		};
+		2B66FDD628E5645000C9F09C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B66FDD728E5645000C9F09C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B66FDE028E5645000C9F09C /* MeoW Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B66FDE128E5645000C9F09C /* MeoW_Watch_AppTests.swift */,
+			);
+			path = "MeoW Watch AppTests";
+			sourceTree = "<group>";
+		};
+		2B66FDEA28E5645000C9F09C /* MeoW Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B66FDEB28E5645000C9F09C /* MeoW_Watch_AppUITests.swift */,
+				2B66FDED28E5645000C9F09C /* MeoW_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "MeoW Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B66FDC428E5644E00C9F09C /* MeoW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B66FDF528E5645000C9F09C /* Build configuration list for PBXNativeTarget "MeoW" */;
+			buildPhases = (
+				2B66FDC328E5644E00C9F09C /* Resources */,
+				2B66FDF428E5645000C9F09C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B66FDCE28E5644E00C9F09C /* PBXTargetDependency */,
+			);
+			name = MeoW;
+			productName = MeoW;
+			productReference = 2B66FDC528E5644E00C9F09C /* MeoW.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		2B66FDCA28E5644E00C9F09C /* MeoW Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B66FDF128E5645000C9F09C /* Build configuration list for PBXNativeTarget "MeoW Watch App" */;
+			buildPhases = (
+				2B66FDC728E5644E00C9F09C /* Sources */,
+				2B66FDC828E5644E00C9F09C /* Frameworks */,
+				2B66FDC928E5644E00C9F09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MeoW Watch App";
+			productName = "MeoW Watch App";
+			productReference = 2B66FDCB28E5644E00C9F09C /* MeoW Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B66FDDC28E5645000C9F09C /* MeoW Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B66FDF828E5645000C9F09C /* Build configuration list for PBXNativeTarget "MeoW Watch AppTests" */;
+			buildPhases = (
+				2B66FDD928E5645000C9F09C /* Sources */,
+				2B66FDDA28E5645000C9F09C /* Frameworks */,
+				2B66FDDB28E5645000C9F09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B66FDDF28E5645000C9F09C /* PBXTargetDependency */,
+			);
+			name = "MeoW Watch AppTests";
+			productName = "MeoW Watch AppTests";
+			productReference = 2B66FDDD28E5645000C9F09C /* MeoW Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B66FDE628E5645000C9F09C /* MeoW Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B66FDFB28E5645000C9F09C /* Build configuration list for PBXNativeTarget "MeoW Watch AppUITests" */;
+			buildPhases = (
+				2B66FDE328E5645000C9F09C /* Sources */,
+				2B66FDE428E5645000C9F09C /* Frameworks */,
+				2B66FDE528E5645000C9F09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B66FDE928E5645000C9F09C /* PBXTargetDependency */,
+			);
+			name = "MeoW Watch AppUITests";
+			productName = "MeoW Watch AppUITests";
+			productReference = 2B66FDE728E5645000C9F09C /* MeoW Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B66FDBF28E5644E00C9F09C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2B66FDC428E5644E00C9F09C = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					2B66FDCA28E5644E00C9F09C = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					2B66FDDC28E5645000C9F09C = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 2B66FDCA28E5644E00C9F09C;
+					};
+					2B66FDE628E5645000C9F09C = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 2B66FDCA28E5644E00C9F09C;
+					};
+				};
+			};
+			buildConfigurationList = 2B66FDC228E5644E00C9F09C /* Build configuration list for PBXProject "MeoW" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B66FDBE28E5644E00C9F09C;
+			productRefGroup = 2B66FDC628E5644E00C9F09C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B66FDC428E5644E00C9F09C /* MeoW */,
+				2B66FDCA28E5644E00C9F09C /* MeoW Watch App */,
+				2B66FDDC28E5645000C9F09C /* MeoW Watch AppTests */,
+				2B66FDE628E5645000C9F09C /* MeoW Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B66FDC328E5644E00C9F09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B66FDC928E5644E00C9F09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B66FDD828E5645000C9F09C /* Preview Assets.xcassets in Resources */,
+				2B66FDD528E5645000C9F09C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B66FDDB28E5645000C9F09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B66FDE528E5645000C9F09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B66FDC728E5644E00C9F09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B66FDD328E5644E00C9F09C /* ContentView.swift in Sources */,
+				2B66FDD128E5644E00C9F09C /* MeoWApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B66FDD928E5645000C9F09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B66FDE228E5645000C9F09C /* MeoW_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B66FDE328E5645000C9F09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B66FDEE28E5645000C9F09C /* MeoW_Watch_AppUITestsLaunchTests.swift in Sources */,
+				2B66FDEC28E5645000C9F09C /* MeoW_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B66FDCE28E5644E00C9F09C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B66FDCA28E5644E00C9F09C /* MeoW Watch App */;
+			targetProxy = 2B66FDCD28E5644E00C9F09C /* PBXContainerItemProxy */;
+		};
+		2B66FDDF28E5645000C9F09C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B66FDCA28E5644E00C9F09C /* MeoW Watch App */;
+			targetProxy = 2B66FDDE28E5645000C9F09C /* PBXContainerItemProxy */;
+		};
+		2B66FDE928E5645000C9F09C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B66FDCA28E5644E00C9F09C /* MeoW Watch App */;
+			targetProxy = 2B66FDE828E5645000C9F09C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B66FDEF28E5645000C9F09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B66FDF028E5645000C9F09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2B66FDF228E5645000C9F09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeoW Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZZM746LVXC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MeoW;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.leonardolu.MeoW.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		2B66FDF328E5645000C9F09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeoW Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZZM746LVXC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MeoW;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.leonardolu.MeoW.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		2B66FDF628E5645000C9F09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZM746LVXC;
+				INFOPLIST_KEY_CFBundleDisplayName = MeoW;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.leonardolu.MeoW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2B66FDF728E5645000C9F09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZM746LVXC;
+				INFOPLIST_KEY_CFBundleDisplayName = MeoW;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.leonardolu.MeoW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B66FDF928E5645000C9F09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZM746LVXC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.leonardolu.MeoW-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeoW Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeoW Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		2B66FDFA28E5645000C9F09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZM746LVXC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.leonardolu.MeoW-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeoW Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeoW Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		2B66FDFC28E5645000C9F09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZM746LVXC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.leonardolu.MeoW-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "MeoW Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		2B66FDFD28E5645000C9F09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZM746LVXC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.leonardolu.MeoW-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "MeoW Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B66FDC228E5644E00C9F09C /* Build configuration list for PBXProject "MeoW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B66FDEF28E5645000C9F09C /* Debug */,
+				2B66FDF028E5645000C9F09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B66FDF128E5645000C9F09C /* Build configuration list for PBXNativeTarget "MeoW Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B66FDF228E5645000C9F09C /* Debug */,
+				2B66FDF328E5645000C9F09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B66FDF528E5645000C9F09C /* Build configuration list for PBXNativeTarget "MeoW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B66FDF628E5645000C9F09C /* Debug */,
+				2B66FDF728E5645000C9F09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B66FDF828E5645000C9F09C /* Build configuration list for PBXNativeTarget "MeoW Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B66FDF928E5645000C9F09C /* Debug */,
+				2B66FDFA28E5645000C9F09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B66FDFB28E5645000C9F09C /* Build configuration list for PBXNativeTarget "MeoW Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B66FDFC28E5645000C9F09C /* Debug */,
+				2B66FDFD28E5645000C9F09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B66FDBF28E5644E00C9F09C /* Project object */;
+}
