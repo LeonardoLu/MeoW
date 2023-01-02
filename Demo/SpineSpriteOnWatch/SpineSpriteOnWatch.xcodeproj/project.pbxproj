@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B379BF62961C1AF0000BAC8 /* SpineSpriteOnWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2B379BF52961C1AF0000BAC8 /* SpineSpriteOnWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2B379BFB2961C1AF0000BAC8 /* SpineSpriteOnWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379BFA2961C1AF0000BAC8 /* SpineSpriteOnWatchApp.swift */; };
+		2B379BFD2961C1AF0000BAC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379BFC2961C1AF0000BAC8 /* ContentView.swift */; };
+		2B379BFF2961C1B10000BAC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B379BFE2961C1B10000BAC8 /* Assets.xcassets */; };
+		2B379C022961C1B10000BAC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B379C012961C1B10000BAC8 /* Preview Assets.xcassets */; };
+		2B379C612961C2160000BAC8 /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C0F2961C2160000BAC8 /* Attachment.swift */; };
+		2B379C622961C2160000BAC8 /* Skeleton+Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C112961C2160000BAC8 /* Skeleton+Points.swift */; };
+		2B379C632961C2160000BAC8 /* SpineModel+Atlases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C122961C2160000BAC8 /* SpineModel+Atlases.swift */; };
+		2B379C642961C2160000BAC8 /* Skeleton+Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C132961C2160000BAC8 /* Skeleton+Nodes.swift */; };
+		2B379C652961C2160000BAC8 /* Skeleton+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C142961C2160000BAC8 /* Skeleton+Animations.swift */; };
+		2B379C662961C2160000BAC8 /* Skeleton+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C152961C2160000BAC8 /* Skeleton+Skins.swift */; };
+		2B379C672961C2160000BAC8 /* Skeleton+Physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C162961C2160000BAC8 /* Skeleton+Physics.swift */; };
+		2B379C682961C2160000BAC8 /* Skeleton+Atlases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C172961C2160000BAC8 /* Skeleton+Atlases.swift */; };
+		2B379C692961C2160000BAC8 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C182961C2160000BAC8 /* Slot.swift */; };
+		2B379C6A2961C2160000BAC8 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C192961C2160000BAC8 /* Animation.swift */; };
+		2B379C6B2961C2160000BAC8 /* SpineError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C1A2961C2160000BAC8 /* SpineError.swift */; };
+		2B379C6C2961C2160000BAC8 /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C1C2961C2160000BAC8 /* SKColor+Extensions.swift */; };
+		2B379C6D2961C2160000BAC8 /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C1D2961C2160000BAC8 /* SKAction+Extensions.swift */; };
+		2B379C6E2961C2160000BAC8 /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C1E2961C2160000BAC8 /* SKNode+Extensions.swift */; };
+		2B379C6F2961C2160000BAC8 /* RangeReplaceableCollection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C1F2961C2160000BAC8 /* RangeReplaceableCollection+Extensions.swift */; };
+		2B379C702961C2160000BAC8 /* CGPath+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C202961C2160000BAC8 /* CGPath+Extensions.swift */; };
+		2B379C712961C2160000BAC8 /* Float+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C212961C2160000BAC8 /* Float+Extensions.swift */; };
+		2B379C722961C2160000BAC8 /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C222961C2160000BAC8 /* Collection+Extensions.swift */; };
+		2B379C732961C2160000BAC8 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C232961C2160000BAC8 /* Documentation.docc */; };
+		2B379C742961C2160000BAC8 /* Skeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C242961C2160000BAC8 /* Skeleton.swift */; };
+		2B379C752961C2160000BAC8 /* Skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C252961C2160000BAC8 /* Skin.swift */; };
+		2B379C762961C2160000BAC8 /* SkinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C282961C2160000BAC8 /* SkinModel.swift */; };
+		2B379C772961C2160000BAC8 /* ClippingAttachmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C2A2961C2160000BAC8 /* ClippingAttachmentModel.swift */; };
+		2B379C782961C2160000BAC8 /* MeshAttachmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C2B2961C2160000BAC8 /* MeshAttachmentModel.swift */; };
+		2B379C792961C2160000BAC8 /* AttachmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C2C2961C2160000BAC8 /* AttachmentModel.swift */; };
+		2B379C7A2961C2160000BAC8 /* BoundingBoxAttachmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C2D2961C2160000BAC8 /* BoundingBoxAttachmentModel.swift */; };
+		2B379C7B2961C2160000BAC8 /* PointAttachmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C2E2961C2160000BAC8 /* PointAttachmentModel.swift */; };
+		2B379C7C2961C2160000BAC8 /* LinkedMeshAttachmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C2F2961C2160000BAC8 /* LinkedMeshAttachmentModel.swift */; };
+		2B379C7D2961C2160000BAC8 /* PathAttachmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C302961C2160000BAC8 /* PathAttachmentModel.swift */; };
+		2B379C7E2961C2160000BAC8 /* RegionAttachementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C312961C2160000BAC8 /* RegionAttachementModel.swift */; };
+		2B379C7F2961C2160000BAC8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C332961C2160000BAC8 /* Constants.swift */; };
+		2B379C802961C2160000BAC8 /* CurveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C342961C2160000BAC8 /* CurveModel.swift */; };
+		2B379C812961C2160000BAC8 /* SpineNameKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C352961C2160000BAC8 /* SpineNameKey.swift */; };
+		2B379C822961C2160000BAC8 /* BezierCurveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C362961C2160000BAC8 /* BezierCurveModel.swift */; };
+		2B379C832961C2160000BAC8 /* BezierCurveSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C372961C2160000BAC8 /* BezierCurveSolver.swift */; };
+		2B379C842961C2160000BAC8 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C382961C2160000BAC8 /* ColorModel.swift */; };
+		2B379C852961C2160000BAC8 /* SkeletonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C392961C2160000BAC8 /* SkeletonModel.swift */; };
+		2B379C862961C2160000BAC8 /* PathConstraintModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C3B2961C2160000BAC8 /* PathConstraintModel.swift */; };
+		2B379C872961C2160000BAC8 /* IKConstraintModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C3C2961C2160000BAC8 /* IKConstraintModel.swift */; };
+		2B379C882961C2160000BAC8 /* TransformConstraintModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C3D2961C2160000BAC8 /* TransformConstraintModel.swift */; };
+		2B379C892961C2160000BAC8 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C3E2961C2160000BAC8 /* EventModel.swift */; };
+		2B379C8A2961C2160000BAC8 /* AnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C402961C2160000BAC8 /* AnimationModel.swift */; };
+		2B379C8B2961C2160000BAC8 /* IKConstraintAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C412961C2160000BAC8 /* IKConstraintAnimationModel.swift */; };
+		2B379C8C2961C2160000BAC8 /* TransformConstraintAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C422961C2160000BAC8 /* TransformConstraintAnimationModel.swift */; };
+		2B379C8D2961C2160000BAC8 /* DeformSkinAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C432961C2160000BAC8 /* DeformSkinAnimationModel.swift */; };
+		2B379C8E2961C2160000BAC8 /* DrawOrderKeyframeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C452961C2160000BAC8 /* DrawOrderKeyframeModel.swift */; };
+		2B379C8F2961C2160000BAC8 /* BoneKeyframeTranslateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C472961C2160000BAC8 /* BoneKeyframeTranslateModel.swift */; };
+		2B379C902961C2160000BAC8 /* BoneKeyframeRotateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C482961C2160000BAC8 /* BoneKeyframeRotateModel.swift */; };
+		2B379C912961C2160000BAC8 /* BoneKeyframeShearModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C492961C2160000BAC8 /* BoneKeyframeShearModel.swift */; };
+		2B379C922961C2160000BAC8 /* BoneKeyframeScaleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C4A2961C2160000BAC8 /* BoneKeyframeScaleModel.swift */; };
+		2B379C932961C2160000BAC8 /* EventKeyfarameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C4B2961C2160000BAC8 /* EventKeyfarameModel.swift */; };
+		2B379C942961C2160000BAC8 /* KeyframeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C4C2961C2160000BAC8 /* KeyframeModel.swift */; };
+		2B379C952961C2160000BAC8 /* DeformKeyframeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C4D2961C2160000BAC8 /* DeformKeyframeModel.swift */; };
+		2B379C962961C2160000BAC8 /* SlotKeyframeAttachmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C4F2961C2160000BAC8 /* SlotKeyframeAttachmentModel.swift */; };
+		2B379C972961C2160000BAC8 /* SlotKeyframeColorDarkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C502961C2160000BAC8 /* SlotKeyframeColorDarkModel.swift */; };
+		2B379C982961C2160000BAC8 /* SlotKeyframeColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C512961C2160000BAC8 /* SlotKeyframeColorModel.swift */; };
+		2B379C992961C2160000BAC8 /* IKConstraintKeyframeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C532961C2160000BAC8 /* IKConstraintKeyframeModel.swift */; };
+		2B379C9A2961C2160000BAC8 /* TransformConstraintKeyframeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C542961C2160000BAC8 /* TransformConstraintKeyframeModel.swift */; };
+		2B379C9B2961C2160000BAC8 /* SlotAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C552961C2160000BAC8 /* SlotAnimationModel.swift */; };
+		2B379C9C2961C2160000BAC8 /* BoneAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C562961C2160000BAC8 /* BoneAnimationModel.swift */; };
+		2B379C9D2961C2160000BAC8 /* SpineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C572961C2160000BAC8 /* SpineModel.swift */; };
+		2B379C9E2961C2160000BAC8 /* BoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C582961C2160000BAC8 /* BoneModel.swift */; };
+		2B379C9F2961C2160000BAC8 /* SlotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C592961C2160000BAC8 /* SlotModel.swift */; };
+		2B379CA02961C2160000BAC8 /* SpineDecodableDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C5B2961C2160000BAC8 /* SpineDecodableDictionary.swift */; };
+		2B379CA12961C2160000BAC8 /* SpineDecodableArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C5C2961C2160000BAC8 /* SpineDecodableArray.swift */; };
+		2B379CA22961C2160000BAC8 /* Bone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C5D2961C2160000BAC8 /* Bone.swift */; };
+		2B379CA32961C2160000BAC8 /* Prefixable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C5F2961C2160000BAC8 /* Prefixable.swift */; };
+		2B379CA42961C2160000BAC8 /* Defaultable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379C602961C2160000BAC8 /* Defaultable.swift */; };
+		2B379CA82961C3820000BAC8 /* WatchSKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379CA72961C3820000BAC8 /* WatchSKView.swift */; };
+		2B379CAA2961C8900000BAC8 /* goblins-ess.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B379CA92961C88F0000BAC8 /* goblins-ess.json */; };
+		2B379CB02962ABB90000BAC8 /* Snsant_Build_F.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B379CAF2962ABB90000BAC8 /* Snsant_Build_F.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B379BF72961C1AF0000BAC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B379BE92961C1AE0000BAC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B379BF42961C1AF0000BAC8;
+			remoteInfo = "SpineSpriteOnWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B379C082961C1B10000BAC8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2B379BF62961C1AF0000BAC8 /* SpineSpriteOnWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B379BEF2961C1AF0000BAC8 /* SpineSpriteOnWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpineSpriteOnWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B379BF52961C1AF0000BAC8 /* SpineSpriteOnWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpineSpriteOnWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B379BFA2961C1AF0000BAC8 /* SpineSpriteOnWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpineSpriteOnWatchApp.swift; sourceTree = "<group>"; };
+		2B379BFC2961C1AF0000BAC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B379BFE2961C1B10000BAC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B379C012961C1B10000BAC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B379C0F2961C2160000BAC8 /* Attachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attachment.swift; sourceTree = "<group>"; };
+		2B379C112961C2160000BAC8 /* Skeleton+Points.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Skeleton+Points.swift"; sourceTree = "<group>"; };
+		2B379C122961C2160000BAC8 /* SpineModel+Atlases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SpineModel+Atlases.swift"; sourceTree = "<group>"; };
+		2B379C132961C2160000BAC8 /* Skeleton+Nodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Skeleton+Nodes.swift"; sourceTree = "<group>"; };
+		2B379C142961C2160000BAC8 /* Skeleton+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Skeleton+Animations.swift"; sourceTree = "<group>"; };
+		2B379C152961C2160000BAC8 /* Skeleton+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Skeleton+Skins.swift"; sourceTree = "<group>"; };
+		2B379C162961C2160000BAC8 /* Skeleton+Physics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Skeleton+Physics.swift"; sourceTree = "<group>"; };
+		2B379C172961C2160000BAC8 /* Skeleton+Atlases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Skeleton+Atlases.swift"; sourceTree = "<group>"; };
+		2B379C182961C2160000BAC8 /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
+		2B379C192961C2160000BAC8 /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		2B379C1A2961C2160000BAC8 /* SpineError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpineError.swift; sourceTree = "<group>"; };
+		2B379C1C2961C2160000BAC8 /* SKColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKColor+Extensions.swift"; sourceTree = "<group>"; };
+		2B379C1D2961C2160000BAC8 /* SKAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Extensions.swift"; sourceTree = "<group>"; };
+		2B379C1E2961C2160000BAC8 /* SKNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
+		2B379C1F2961C2160000BAC8 /* RangeReplaceableCollection+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RangeReplaceableCollection+Extensions.swift"; sourceTree = "<group>"; };
+		2B379C202961C2160000BAC8 /* CGPath+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPath+Extensions.swift"; sourceTree = "<group>"; };
+		2B379C212961C2160000BAC8 /* Float+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Float+Extensions.swift"; sourceTree = "<group>"; };
+		2B379C222961C2160000BAC8 /* Collection+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
+		2B379C232961C2160000BAC8 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		2B379C242961C2160000BAC8 /* Skeleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skeleton.swift; sourceTree = "<group>"; };
+		2B379C252961C2160000BAC8 /* Skin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skin.swift; sourceTree = "<group>"; };
+		2B379C282961C2160000BAC8 /* SkinModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkinModel.swift; sourceTree = "<group>"; };
+		2B379C2A2961C2160000BAC8 /* ClippingAttachmentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClippingAttachmentModel.swift; sourceTree = "<group>"; };
+		2B379C2B2961C2160000BAC8 /* MeshAttachmentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeshAttachmentModel.swift; sourceTree = "<group>"; };
+		2B379C2C2961C2160000BAC8 /* AttachmentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentModel.swift; sourceTree = "<group>"; };
+		2B379C2D2961C2160000BAC8 /* BoundingBoxAttachmentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoundingBoxAttachmentModel.swift; sourceTree = "<group>"; };
+		2B379C2E2961C2160000BAC8 /* PointAttachmentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointAttachmentModel.swift; sourceTree = "<group>"; };
+		2B379C2F2961C2160000BAC8 /* LinkedMeshAttachmentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedMeshAttachmentModel.swift; sourceTree = "<group>"; };
+		2B379C302961C2160000BAC8 /* PathAttachmentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathAttachmentModel.swift; sourceTree = "<group>"; };
+		2B379C312961C2160000BAC8 /* RegionAttachementModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionAttachementModel.swift; sourceTree = "<group>"; };
+		2B379C332961C2160000BAC8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2B379C342961C2160000BAC8 /* CurveModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurveModel.swift; sourceTree = "<group>"; };
+		2B379C352961C2160000BAC8 /* SpineNameKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpineNameKey.swift; sourceTree = "<group>"; };
+		2B379C362961C2160000BAC8 /* BezierCurveModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierCurveModel.swift; sourceTree = "<group>"; };
+		2B379C372961C2160000BAC8 /* BezierCurveSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierCurveSolver.swift; sourceTree = "<group>"; };
+		2B379C382961C2160000BAC8 /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		2B379C392961C2160000BAC8 /* SkeletonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkeletonModel.swift; sourceTree = "<group>"; };
+		2B379C3B2961C2160000BAC8 /* PathConstraintModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathConstraintModel.swift; sourceTree = "<group>"; };
+		2B379C3C2961C2160000BAC8 /* IKConstraintModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IKConstraintModel.swift; sourceTree = "<group>"; };
+		2B379C3D2961C2160000BAC8 /* TransformConstraintModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformConstraintModel.swift; sourceTree = "<group>"; };
+		2B379C3E2961C2160000BAC8 /* EventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		2B379C402961C2160000BAC8 /* AnimationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationModel.swift; sourceTree = "<group>"; };
+		2B379C412961C2160000BAC8 /* IKConstraintAnimationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IKConstraintAnimationModel.swift; sourceTree = "<group>"; };
+		2B379C422961C2160000BAC8 /* TransformConstraintAnimationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformConstraintAnimationModel.swift; sourceTree = "<group>"; };
+		2B379C432961C2160000BAC8 /* DeformSkinAnimationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeformSkinAnimationModel.swift; sourceTree = "<group>"; };
+		2B379C452961C2160000BAC8 /* DrawOrderKeyframeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawOrderKeyframeModel.swift; sourceTree = "<group>"; };
+		2B379C472961C2160000BAC8 /* BoneKeyframeTranslateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoneKeyframeTranslateModel.swift; sourceTree = "<group>"; };
+		2B379C482961C2160000BAC8 /* BoneKeyframeRotateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoneKeyframeRotateModel.swift; sourceTree = "<group>"; };
+		2B379C492961C2160000BAC8 /* BoneKeyframeShearModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoneKeyframeShearModel.swift; sourceTree = "<group>"; };
+		2B379C4A2961C2160000BAC8 /* BoneKeyframeScaleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoneKeyframeScaleModel.swift; sourceTree = "<group>"; };
+		2B379C4B2961C2160000BAC8 /* EventKeyfarameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventKeyfarameModel.swift; sourceTree = "<group>"; };
+		2B379C4C2961C2160000BAC8 /* KeyframeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyframeModel.swift; sourceTree = "<group>"; };
+		2B379C4D2961C2160000BAC8 /* DeformKeyframeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeformKeyframeModel.swift; sourceTree = "<group>"; };
+		2B379C4F2961C2160000BAC8 /* SlotKeyframeAttachmentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotKeyframeAttachmentModel.swift; sourceTree = "<group>"; };
+		2B379C502961C2160000BAC8 /* SlotKeyframeColorDarkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotKeyframeColorDarkModel.swift; sourceTree = "<group>"; };
+		2B379C512961C2160000BAC8 /* SlotKeyframeColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotKeyframeColorModel.swift; sourceTree = "<group>"; };
+		2B379C532961C2160000BAC8 /* IKConstraintKeyframeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IKConstraintKeyframeModel.swift; sourceTree = "<group>"; };
+		2B379C542961C2160000BAC8 /* TransformConstraintKeyframeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformConstraintKeyframeModel.swift; sourceTree = "<group>"; };
+		2B379C552961C2160000BAC8 /* SlotAnimationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotAnimationModel.swift; sourceTree = "<group>"; };
+		2B379C562961C2160000BAC8 /* BoneAnimationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoneAnimationModel.swift; sourceTree = "<group>"; };
+		2B379C572961C2160000BAC8 /* SpineModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpineModel.swift; sourceTree = "<group>"; };
+		2B379C582961C2160000BAC8 /* BoneModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoneModel.swift; sourceTree = "<group>"; };
+		2B379C592961C2160000BAC8 /* SlotModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotModel.swift; sourceTree = "<group>"; };
+		2B379C5B2961C2160000BAC8 /* SpineDecodableDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpineDecodableDictionary.swift; sourceTree = "<group>"; };
+		2B379C5C2961C2160000BAC8 /* SpineDecodableArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpineDecodableArray.swift; sourceTree = "<group>"; };
+		2B379C5D2961C2160000BAC8 /* Bone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bone.swift; sourceTree = "<group>"; };
+		2B379C5F2961C2160000BAC8 /* Prefixable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prefixable.swift; sourceTree = "<group>"; };
+		2B379C602961C2160000BAC8 /* Defaultable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defaultable.swift; sourceTree = "<group>"; };
+		2B379CA72961C3820000BAC8 /* WatchSKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchSKView.swift; sourceTree = "<group>"; };
+		2B379CA92961C88F0000BAC8 /* goblins-ess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "goblins-ess.json"; sourceTree = "<group>"; };
+		2B379CAF2962ABB90000BAC8 /* Snsant_Build_F.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Snsant_Build_F.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B379BF22961C1AF0000BAC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B379BE82961C1AE0000BAC8 = {
+			isa = PBXGroup;
+			children = (
+				2B379C0D2961C2090000BAC8 /* Packages */,
+				2B379BF92961C1AF0000BAC8 /* SpineSpriteOnWatch Watch App */,
+				2B379BF02961C1AF0000BAC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B379BF02961C1AF0000BAC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B379BEF2961C1AF0000BAC8 /* SpineSpriteOnWatch.app */,
+				2B379BF52961C1AF0000BAC8 /* SpineSpriteOnWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B379BF92961C1AF0000BAC8 /* SpineSpriteOnWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				2B379BFA2961C1AF0000BAC8 /* SpineSpriteOnWatchApp.swift */,
+				2B379BFC2961C1AF0000BAC8 /* ContentView.swift */,
+				2B379CAF2962ABB90000BAC8 /* Snsant_Build_F.json */,
+				2B379CA92961C88F0000BAC8 /* goblins-ess.json */,
+				2B379CA72961C3820000BAC8 /* WatchSKView.swift */,
+				2B379BFE2961C1B10000BAC8 /* Assets.xcassets */,
+				2B379C002961C1B10000BAC8 /* Preview Content */,
+			);
+			path = "SpineSpriteOnWatch Watch App";
+			sourceTree = "<group>";
+		};
+		2B379C002961C1B10000BAC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B379C012961C1B10000BAC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B379C0D2961C2090000BAC8 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				2B379C0E2961C2160000BAC8 /* Spine */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		2B379C0E2961C2160000BAC8 /* Spine */ = {
+			isa = PBXGroup;
+			children = (
+				2B379C0F2961C2160000BAC8 /* Attachment.swift */,
+				2B379C102961C2160000BAC8 /* Extensions Public */,
+				2B379C182961C2160000BAC8 /* Slot.swift */,
+				2B379C192961C2160000BAC8 /* Animation.swift */,
+				2B379C1A2961C2160000BAC8 /* SpineError.swift */,
+				2B379C1B2961C2160000BAC8 /* Extensions */,
+				2B379C232961C2160000BAC8 /* Documentation.docc */,
+				2B379C242961C2160000BAC8 /* Skeleton.swift */,
+				2B379C252961C2160000BAC8 /* Skin.swift */,
+				2B379C262961C2160000BAC8 /* Model */,
+				2B379C5D2961C2160000BAC8 /* Bone.swift */,
+				2B379C5E2961C2160000BAC8 /* Protocols */,
+			);
+			path = Spine;
+			sourceTree = "<group>";
+		};
+		2B379C102961C2160000BAC8 /* Extensions Public */ = {
+			isa = PBXGroup;
+			children = (
+				2B379C112961C2160000BAC8 /* Skeleton+Points.swift */,
+				2B379C122961C2160000BAC8 /* SpineModel+Atlases.swift */,
+				2B379C132961C2160000BAC8 /* Skeleton+Nodes.swift */,
+				2B379C142961C2160000BAC8 /* Skeleton+Animations.swift */,
+				2B379C152961C2160000BAC8 /* Skeleton+Skins.swift */,
+				2B379C162961C2160000BAC8 /* Skeleton+Physics.swift */,
+				2B379C172961C2160000BAC8 /* Skeleton+Atlases.swift */,
+			);
+			path = "Extensions Public";
+			sourceTree = "<group>";
+		};
+		2B379C1B2961C2160000BAC8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B379C1C2961C2160000BAC8 /* SKColor+Extensions.swift */,
+				2B379C1D2961C2160000BAC8 /* SKAction+Extensions.swift */,
+				2B379C1E2961C2160000BAC8 /* SKNode+Extensions.swift */,
+				2B379C1F2961C2160000BAC8 /* RangeReplaceableCollection+Extensions.swift */,
+				2B379C202961C2160000BAC8 /* CGPath+Extensions.swift */,
+				2B379C212961C2160000BAC8 /* Float+Extensions.swift */,
+				2B379C222961C2160000BAC8 /* Collection+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2B379C262961C2160000BAC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B379C272961C2160000BAC8 /* Skin */,
+				2B379C322961C2160000BAC8 /* Types */,
+				2B379C392961C2160000BAC8 /* SkeletonModel.swift */,
+				2B379C3A2961C2160000BAC8 /* Constraints */,
+				2B379C3E2961C2160000BAC8 /* EventModel.swift */,
+				2B379C3F2961C2160000BAC8 /* Animation */,
+				2B379C572961C2160000BAC8 /* SpineModel.swift */,
+				2B379C582961C2160000BAC8 /* BoneModel.swift */,
+				2B379C592961C2160000BAC8 /* SlotModel.swift */,
+				2B379C5A2961C2160000BAC8 /* Protocols */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B379C272961C2160000BAC8 /* Skin */ = {
+			isa = PBXGroup;
+			children = (
+				2B379C282961C2160000BAC8 /* SkinModel.swift */,
+				2B379C292961C2160000BAC8 /* Attachments */,
+			);
+			path = Skin;
+			sourceTree = "<group>";
+		};
+		2B379C292961C2160000BAC8 /* Attachments */ = {
+			isa = PBXGroup;
+			children = (
+				2B379C2A2961C2160000BAC8 /* ClippingAttachmentModel.swift */,
+				2B379C2B2961C2160000BAC8 /* MeshAttachmentModel.swift */,
+				2B379C2C2961C2160000BAC8 /* AttachmentModel.swift */,
+				2B379C2D2961C2160000BAC8 /* BoundingBoxAttachmentModel.swift */,
+				2B379C2E2961C2160000BAC8 /* PointAttachmentModel.swift */,
+				2B379C2F2961C2160000BAC8 /* LinkedMeshAttachmentModel.swift */,
+				2B379C302961C2160000BAC8 /* PathAttachmentModel.swift */,
+				2B379C312961C2160000BAC8 /* RegionAttachementModel.swift */,
+			);
+			path = Attachments;
+			sourceTree = "<group>";
+		};
+		2B379C322961C2160000BAC8 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				2B379C332961C2160000BAC8 /* Constants.swift */,
+				2B379C342961C2160000BAC8 /* CurveModel.swift */,
+				2B379C352961C2160000BAC8 /* SpineNameKey.swift */,
+				2B379C362961C2160000BAC8 /* BezierCurveModel.swift */,
+				2B379C372961C2160000BAC8 /* BezierCurveSolver.swift */,
+				2B379C382961C2160000BAC8 /* ColorModel.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		2B379C3A2961C2160000BAC8 /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				2B379C3B2961C2160000BAC8 /* PathConstraintModel.swift */,
+				2B379C3C2961C2160000BAC8 /* IKConstraintModel.swift */,
+				2B379C3D2961C2160000BAC8 /* TransformConstraintModel.swift */,
+			);
+			path = Constraints;
+			sourceTree = "<group>";
+		};
+		2B379C3F2961C2160000BAC8 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				2B379C402961C2160000BAC8 /* AnimationModel.swift */,
+				2B379C412961C2160000BAC8 /* IKConstraintAnimationModel.swift */,
+				2B379C422961C2160000BAC8 /* TransformConstraintAnimationModel.swift */,
+				2B379C432961C2160000BAC8 /* DeformSkinAnimationModel.swift */,
+				2B379C442961C2160000BAC8 /* Keyframes */,
+				2B379C552961C2160000BAC8 /* SlotAnimationModel.swift */,
+				2B379C562961C2160000BAC8 /* BoneAnimationModel.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		2B379C442961C2160000BAC8 /* Keyframes */ = {
+			isa = PBXGroup;
+			children = (
+				2B379C452961C2160000BAC8 /* DrawOrderKeyframeModel.swift */,
+				2B379C462961C2160000BAC8 /* Bone */,
+				2B379C4B2961C2160000BAC8 /* EventKeyfarameModel.swift */,
+				2B379C4C2961C2160000BAC8 /* KeyframeModel.swift */,
+				2B379C4D2961C2160000BAC8 /* DeformKeyframeModel.swift */,
+				2B379C4E2961C2160000BAC8 /* Slot */,
+				2B379C522961C2160000BAC8 /* Constraint */,
+			);
+			path = Keyframes;
+			sourceTree = "<group>";
+		};
+		2B379C462961C2160000BAC8 /* Bone */ = {
+			isa = PBXGroup;
+			children = (
+				2B379C472961C2160000BAC8 /* BoneKeyframeTranslateModel.swift */,
+				2B379C482961C2160000BAC8 /* BoneKeyframeRotateModel.swift */,
+				2B379C492961C2160000BAC8 /* BoneKeyframeShearModel.swift */,
+				2B379C4A2961C2160000BAC8 /* BoneKeyframeScaleModel.swift */,
+			);
+			path = Bone;
+			sourceTree = "<group>";
+		};
+		2B379C4E2961C2160000BAC8 /* Slot */ = {
+			isa = PBXGroup;
+			children = (
+				2B379C4F2961C2160000BAC8 /* SlotKeyframeAttachmentModel.swift */,
+				2B379C502961C2160000BAC8 /* SlotKeyframeColorDarkModel.swift */,
+				2B379C512961C2160000BAC8 /* SlotKeyframeColorModel.swift */,
+			);
+			path = Slot;
+			sourceTree = "<group>";
+		};
+		2B379C522961C2160000BAC8 /* Constraint */ = {
+			isa = PBXGroup;
+			children = (
+				2B379C532961C2160000BAC8 /* IKConstraintKeyframeModel.swift */,
+				2B379C542961C2160000BAC8 /* TransformConstraintKeyframeModel.swift */,
+			);
+			path = Constraint;
+			sourceTree = "<group>";
+		};
+		2B379C5A2961C2160000BAC8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2B379C5B2961C2160000BAC8 /* SpineDecodableDictionary.swift */,
+				2B379C5C2961C2160000BAC8 /* SpineDecodableArray.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2B379C5E2961C2160000BAC8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2B379C5F2961C2160000BAC8 /* Prefixable.swift */,
+				2B379C602961C2160000BAC8 /* Defaultable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B379BEE2961C1AF0000BAC8 /* SpineSpriteOnWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B379C092961C1B10000BAC8 /* Build configuration list for PBXNativeTarget "SpineSpriteOnWatch" */;
+			buildPhases = (
+				2B379BED2961C1AF0000BAC8 /* Resources */,
+				2B379C082961C1B10000BAC8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B379BF82961C1AF0000BAC8 /* PBXTargetDependency */,
+			);
+			name = SpineSpriteOnWatch;
+			productName = SpineSpriteOnWatch;
+			productReference = 2B379BEF2961C1AF0000BAC8 /* SpineSpriteOnWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		2B379BF42961C1AF0000BAC8 /* SpineSpriteOnWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B379C052961C1B10000BAC8 /* Build configuration list for PBXNativeTarget "SpineSpriteOnWatch Watch App" */;
+			buildPhases = (
+				2B379BF12961C1AF0000BAC8 /* Sources */,
+				2B379BF22961C1AF0000BAC8 /* Frameworks */,
+				2B379BF32961C1AF0000BAC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpineSpriteOnWatch Watch App";
+			productName = "SpineSpriteOnWatch Watch App";
+			productReference = 2B379BF52961C1AF0000BAC8 /* SpineSpriteOnWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B379BE92961C1AE0000BAC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2B379BEE2961C1AF0000BAC8 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					2B379BF42961C1AF0000BAC8 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B379BEC2961C1AE0000BAC8 /* Build configuration list for PBXProject "SpineSpriteOnWatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B379BE82961C1AE0000BAC8;
+			productRefGroup = 2B379BF02961C1AF0000BAC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B379BEE2961C1AF0000BAC8 /* SpineSpriteOnWatch */,
+				2B379BF42961C1AF0000BAC8 /* SpineSpriteOnWatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B379BED2961C1AF0000BAC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B379BF32961C1AF0000BAC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B379C022961C1B10000BAC8 /* Preview Assets.xcassets in Resources */,
+				2B379CAA2961C8900000BAC8 /* goblins-ess.json in Resources */,
+				2B379CB02962ABB90000BAC8 /* Snsant_Build_F.json in Resources */,
+				2B379BFF2961C1B10000BAC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B379BF12961C1AF0000BAC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B379C8A2961C2160000BAC8 /* AnimationModel.swift in Sources */,
+				2B379C642961C2160000BAC8 /* Skeleton+Nodes.swift in Sources */,
+				2B379C712961C2160000BAC8 /* Float+Extensions.swift in Sources */,
+				2B379C792961C2160000BAC8 /* AttachmentModel.swift in Sources */,
+				2B379CA12961C2160000BAC8 /* SpineDecodableArray.swift in Sources */,
+				2B379C6E2961C2160000BAC8 /* SKNode+Extensions.swift in Sources */,
+				2B379C822961C2160000BAC8 /* BezierCurveModel.swift in Sources */,
+				2B379C8B2961C2160000BAC8 /* IKConstraintAnimationModel.swift in Sources */,
+				2B379C882961C2160000BAC8 /* TransformConstraintModel.swift in Sources */,
+				2B379BFD2961C1AF0000BAC8 /* ContentView.swift in Sources */,
+				2B379C9D2961C2160000BAC8 /* SpineModel.swift in Sources */,
+				2B379C942961C2160000BAC8 /* KeyframeModel.swift in Sources */,
+				2B379C8D2961C2160000BAC8 /* DeformSkinAnimationModel.swift in Sources */,
+				2B379CA22961C2160000BAC8 /* Bone.swift in Sources */,
+				2B379C7B2961C2160000BAC8 /* PointAttachmentModel.swift in Sources */,
+				2B379C812961C2160000BAC8 /* SpineNameKey.swift in Sources */,
+				2B379CA82961C3820000BAC8 /* WatchSKView.swift in Sources */,
+				2B379C902961C2160000BAC8 /* BoneKeyframeRotateModel.swift in Sources */,
+				2B379C682961C2160000BAC8 /* Skeleton+Atlases.swift in Sources */,
+				2B379C9A2961C2160000BAC8 /* TransformConstraintKeyframeModel.swift in Sources */,
+				2B379C9F2961C2160000BAC8 /* SlotModel.swift in Sources */,
+				2B379C952961C2160000BAC8 /* DeformKeyframeModel.swift in Sources */,
+				2B379C622961C2160000BAC8 /* Skeleton+Points.swift in Sources */,
+				2B379C632961C2160000BAC8 /* SpineModel+Atlases.swift in Sources */,
+				2B379C782961C2160000BAC8 /* MeshAttachmentModel.swift in Sources */,
+				2B379C9C2961C2160000BAC8 /* BoneAnimationModel.swift in Sources */,
+				2B379C612961C2160000BAC8 /* Attachment.swift in Sources */,
+				2B379C832961C2160000BAC8 /* BezierCurveSolver.swift in Sources */,
+				2B379C6D2961C2160000BAC8 /* SKAction+Extensions.swift in Sources */,
+				2B379C922961C2160000BAC8 /* BoneKeyframeScaleModel.swift in Sources */,
+				2B379C872961C2160000BAC8 /* IKConstraintModel.swift in Sources */,
+				2B379C722961C2160000BAC8 /* Collection+Extensions.swift in Sources */,
+				2B379C982961C2160000BAC8 /* SlotKeyframeColorModel.swift in Sources */,
+				2B379C652961C2160000BAC8 /* Skeleton+Animations.swift in Sources */,
+				2B379C972961C2160000BAC8 /* SlotKeyframeColorDarkModel.swift in Sources */,
+				2B379C9E2961C2160000BAC8 /* BoneModel.swift in Sources */,
+				2B379C8E2961C2160000BAC8 /* DrawOrderKeyframeModel.swift in Sources */,
+				2B379C932961C2160000BAC8 /* EventKeyfarameModel.swift in Sources */,
+				2B379BFB2961C1AF0000BAC8 /* SpineSpriteOnWatchApp.swift in Sources */,
+				2B379C992961C2160000BAC8 /* IKConstraintKeyframeModel.swift in Sources */,
+				2B379C8C2961C2160000BAC8 /* TransformConstraintAnimationModel.swift in Sources */,
+				2B379C752961C2160000BAC8 /* Skin.swift in Sources */,
+				2B379C842961C2160000BAC8 /* ColorModel.swift in Sources */,
+				2B379C852961C2160000BAC8 /* SkeletonModel.swift in Sources */,
+				2B379C742961C2160000BAC8 /* Skeleton.swift in Sources */,
+				2B379C702961C2160000BAC8 /* CGPath+Extensions.swift in Sources */,
+				2B379C7C2961C2160000BAC8 /* LinkedMeshAttachmentModel.swift in Sources */,
+				2B379C672961C2160000BAC8 /* Skeleton+Physics.swift in Sources */,
+				2B379C762961C2160000BAC8 /* SkinModel.swift in Sources */,
+				2B379C8F2961C2160000BAC8 /* BoneKeyframeTranslateModel.swift in Sources */,
+				2B379CA42961C2160000BAC8 /* Defaultable.swift in Sources */,
+				2B379C892961C2160000BAC8 /* EventModel.swift in Sources */,
+				2B379CA32961C2160000BAC8 /* Prefixable.swift in Sources */,
+				2B379C7D2961C2160000BAC8 /* PathAttachmentModel.swift in Sources */,
+				2B379C6C2961C2160000BAC8 /* SKColor+Extensions.swift in Sources */,
+				2B379C7F2961C2160000BAC8 /* Constants.swift in Sources */,
+				2B379C912961C2160000BAC8 /* BoneKeyframeShearModel.swift in Sources */,
+				2B379C6B2961C2160000BAC8 /* SpineError.swift in Sources */,
+				2B379C732961C2160000BAC8 /* Documentation.docc in Sources */,
+				2B379C862961C2160000BAC8 /* PathConstraintModel.swift in Sources */,
+				2B379C662961C2160000BAC8 /* Skeleton+Skins.swift in Sources */,
+				2B379C7E2961C2160000BAC8 /* RegionAttachementModel.swift in Sources */,
+				2B379C6F2961C2160000BAC8 /* RangeReplaceableCollection+Extensions.swift in Sources */,
+				2B379C7A2961C2160000BAC8 /* BoundingBoxAttachmentModel.swift in Sources */,
+				2B379C9B2961C2160000BAC8 /* SlotAnimationModel.swift in Sources */,
+				2B379C6A2961C2160000BAC8 /* Animation.swift in Sources */,
+				2B379C962961C2160000BAC8 /* SlotKeyframeAttachmentModel.swift in Sources */,
+				2B379C802961C2160000BAC8 /* CurveModel.swift in Sources */,
+				2B379C772961C2160000BAC8 /* ClippingAttachmentModel.swift in Sources */,
+				2B379C692961C2160000BAC8 /* Slot.swift in Sources */,
+				2B379CA02961C2160000BAC8 /* SpineDecodableDictionary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B379BF82961C1AF0000BAC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B379BF42961C1AF0000BAC8 /* SpineSpriteOnWatch Watch App */;
+			targetProxy = 2B379BF72961C1AF0000BAC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B379C032961C1B10000BAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B379C042961C1B10000BAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2B379C062961C1B10000BAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpineSpriteOnWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZZM746LVXC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SpineSpriteOnWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.leonardolu.SpineSpriteOnWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		2B379C072961C1B10000BAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpineSpriteOnWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZZM746LVXC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SpineSpriteOnWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.leonardolu.SpineSpriteOnWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		2B379C0A2961C1B10000BAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZM746LVXC;
+				INFOPLIST_KEY_CFBundleDisplayName = SpineSpriteOnWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.leonardolu.SpineSpriteOnWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2B379C0B2961C1B10000BAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZM746LVXC;
+				INFOPLIST_KEY_CFBundleDisplayName = SpineSpriteOnWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.leonardolu.SpineSpriteOnWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B379BEC2961C1AE0000BAC8 /* Build configuration list for PBXProject "SpineSpriteOnWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B379C032961C1B10000BAC8 /* Debug */,
+				2B379C042961C1B10000BAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B379C052961C1B10000BAC8 /* Build configuration list for PBXNativeTarget "SpineSpriteOnWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B379C062961C1B10000BAC8 /* Debug */,
+				2B379C072961C1B10000BAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B379C092961C1B10000BAC8 /* Build configuration list for PBXNativeTarget "SpineSpriteOnWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B379C0A2961C1B10000BAC8 /* Debug */,
+				2B379C0B2961C1B10000BAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B379BE92961C1AE0000BAC8 /* Project object */;
+}
