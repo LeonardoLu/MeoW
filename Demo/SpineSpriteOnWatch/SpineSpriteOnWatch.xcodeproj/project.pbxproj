@@ -83,6 +83,7 @@
 		2B379CA82961C3820000BAC8 /* WatchSKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B379CA72961C3820000BAC8 /* WatchSKView.swift */; };
 		2B379CAA2961C8900000BAC8 /* goblins-ess.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B379CA92961C88F0000BAC8 /* goblins-ess.json */; };
 		2B379CB02962ABB90000BAC8 /* Snsant_Build_F.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B379CAF2962ABB90000BAC8 /* Snsant_Build_F.json */; };
+		2B379CB22962CBE20000BAC8 /* windmill-ess.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B379CB12962CBE20000BAC8 /* windmill-ess.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,6 +188,7 @@
 		2B379CA72961C3820000BAC8 /* WatchSKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchSKView.swift; sourceTree = "<group>"; };
 		2B379CA92961C88F0000BAC8 /* goblins-ess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "goblins-ess.json"; sourceTree = "<group>"; };
 		2B379CAF2962ABB90000BAC8 /* Snsant_Build_F.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Snsant_Build_F.json; sourceTree = "<group>"; };
+		2B379CB12962CBE20000BAC8 /* windmill-ess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "windmill-ess.json"; path = "wind/windmill-ess.json"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +226,7 @@
 				2B379BFA2961C1AF0000BAC8 /* SpineSpriteOnWatchApp.swift */,
 				2B379BFC2961C1AF0000BAC8 /* ContentView.swift */,
 				2B379CAF2962ABB90000BAC8 /* Snsant_Build_F.json */,
+				2B379CB12962CBE20000BAC8 /* windmill-ess.json */,
 				2B379CA92961C88F0000BAC8 /* goblins-ess.json */,
 				2B379CA72961C3820000BAC8 /* WatchSKView.swift */,
 				2B379BFE2961C1B10000BAC8 /* Assets.xcassets */,
@@ -523,6 +526,7 @@
 			files = (
 				2B379C022961C1B10000BAC8 /* Preview Assets.xcassets in Resources */,
 				2B379CAA2961C8900000BAC8 /* goblins-ess.json in Resources */,
+				2B379CB22962CBE20000BAC8 /* windmill-ess.json in Resources */,
 				2B379CB02962ABB90000BAC8 /* Snsant_Build_F.json in Resources */,
 				2B379BFF2961C1B10000BAC8 /* Assets.xcassets in Resources */,
 			);

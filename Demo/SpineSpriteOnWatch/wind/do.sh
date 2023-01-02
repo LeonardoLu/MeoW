@@ -1,0 +1,1 @@
+python ./main_part.py -af windmill-ess.atlas -tf windmill-ess.png -s output
