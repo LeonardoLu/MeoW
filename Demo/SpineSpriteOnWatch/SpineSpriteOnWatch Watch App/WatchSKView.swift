@@ -44,20 +44,24 @@ class GameScene: SKScene {
     override func sceneDidLoad() {
         do {
 
-            let character = try Skeleton(json: "goblins-ess", folder: "goblins", skin: "goblin")
+            let character = try Skeleton(json: "windmill-ess", folder: "windmill-ess", skin: nil)
             character.name = "character"
-            character.position = CGPoint(x: self.size.width / 2, y: (self.size.height / 2) - 200)
+            character.position = CGPoint(x: self.size.width / 2, y: (self.size.height / 2)-20)
             addChild(character)
+            character.setScale(0.15)
 
-            let walkAnimation = try character.action(animation: "walk")
-            character.run(.repeatForever(walkAnimation))
-
-            let switchSkinsAction = SKAction.sequence([.wait(forDuration: 3),
-                                                       try character.action(applySkin: "goblingirl"),
-                                                       .wait(forDuration: 3),
-                                                       try character.action(applySkin: "goblin")])
-
-            character.run(.repeatForever(switchSkinsAction))
+            let animation = try character.action(animation: "animation")
+            character.run(.repeatForever(animation))
+//
+//            let walkAnimation = try character.action(animation: "walk")
+//            character.run(.repeatForever(walkAnimation))
+//
+//            let switchSkinsAction = SKAction.sequence([.wait(forDuration: 3),
+//                                                       try character.action(applySkin: "goblingirl"),
+//                                                       .wait(forDuration: 3),
+//                                                       try character.action(applySkin: "goblin")])
+//
+//            character.run(.repeatForever(switchSkinsAction))
 
         } catch {
 
